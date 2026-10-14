@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntegrarIA - Integração de IA Empresarial</title>
+    <!-- Tailwind CSS para um design limpo e rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-glow {
+            background: radial-gradient(circle, rgba(0,210,255,0.1) 0%, rgba(0,0,0,1) 70%);
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-sans antialiased selection:bg-cyan-500 selection:text-black">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="text-xl font-bold tracking-wider text-white">
+                INTEGRAR<span class="text-cyan-400">IA</span>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm text-zinc-400">
+                <a href="#servicos" class="hover:text-cyan-400 transition">Serviços</a>
+                <a href="#diferencial" class="hover:text-cyan-400 transition">Vantagens</a>
+                <a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
+            </nav>
+            <a href="https://wa.me/351930448512" target="_blank" class="bg-cyan-400 text-black text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-cyan-300 transition shadow-lg shadow-cyan-500/20">
+                Falar no WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-44 md:pb-32 bg-glow relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <span class="inline-block text-xs uppercase tracking-widest text-cyan-400 bg-cyan-950/50 border border-cyan-800/50 px-3 py-1 rounded-full mb-6">
+                Inteligência Artificial para Negócios & PMEs
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Automatize o seu negócio sem <span class="text-cyan-400">mensalidades complexas</span>.
+            </h1>
+            <p class="text-lg md:text-xl text-zinc-400 mb-10 max-w-2xl mx-auto">
+                Levamos a tecnologia de ponta e a integração de IA diretamente para a realidade de empresas locais e PMEs em Portugal.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/351930448512" target="_blank" class="bg-cyan-400 text-black font-medium px-8 py-4 rounded-full hover:bg-cyan-300 transition">
+                    Pedir Consultoria Gratuita
+                </a>
+                <a href="#servicos" class="border border-zinc-700 text-zinc-300 font-medium px-8 py-4 rounded-full hover:border-cyan-400 hover:text-cyan-400 transition">
+                    Conhecer Serviços
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-20 border-t border-zinc-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">O que fazemos</h2>
+                <p class="text-zinc-400 max-w-xl mx-auto">Soluções práticas desenhadas à medida para acelerar a eficiência operacional do seu negócio.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-950 border border-zinc-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-10 h-10 bg-cyan-950 text-cyan-400 rounded-lg flex items-center justify-center font-bold mb-6">01</div>
+                    <h3 class="text-xl font-semibold mb-3">Automação de Processos</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Elimine tarefas repetitivas e otimize fluxos de trabalho internos através de automações inteligentes.</p>
+                </div>
+                <div class="bg-zinc-950 border border-zinc-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-10 h-10 bg-cyan-950 text-cyan-400 rounded-lg flex items-center justify-center font-bold mb-6">02</div>
+                    <h3 class="text-xl font-semibold mb-3">Integração de IA</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Implementação de ferramentas de IA adaptadas à realidade e às necessidades específicas do mercado local.</p>
+                </div>
+                <div class="bg-zinc-950 border border-zinc-800 p-8 rounded-2xl hover:border-cyan-500/50 transition">
+                    <div class="w-10 h-10 bg-cyan-950 text-cyan-400 rounded-lg flex items-center justify-center font-bold mb-6">03</div>
+                    <h3 class="text-xl font-semibold mb-3">Consultoria Pragmática</h3>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Aconselhamento especializado, claro e focado em resultados rápidos, sem compromissos abusivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferencial -->
+    <section id="diferencial" class="py-20 border-t border-zinc-900 bg-zinc-950/40">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Porque escolher a IntegrarIA?</h2>
+            <p class="text-zinc-400 text-lg mb-12">
+                Acreditamos na inovação acessível. Focamo-nos em soluções eficientes sem a imposição de mensalidades fixas pesadas ou assinaturas obrigatórias.
+            </p>
+            <div class="inline-block bg-black border border-zinc-800 px-8 py-6 rounded-2xl text-left">
+                <div class="flex items-center space-x-4 mb-3">
+                    <span class="text-cyan-400 font-bold">✓</span>
+                    <span class="text-zinc-200">Atendimento personalizado a partir de Almada, Portugal</span>
+                </div>
+                <div class="flex items-center space-x-4 mb-3">
+                    <span class="text-cyan-400 font-bold">✓</span>
+                    <span class="text-zinc-200">Horário: Segunda a Sexta, 09:00 - 17:00</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-cyan-400 font-bold">✓</span>
+                    <span class="text-zinc-200">Suporte direto via WhatsApp e canais dedicados</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto / CTA -->
+    <section id="contacto" class="py-20 border-t border-zinc-900 text-center">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">Pronto para transformar o seu negócio?</h2>
+            <p class="text-zinc-400 mb-8">Entre em contacto connosco hoje mesmo e descubra como a IA pode trabalhar a seu favor.</p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <a href="https://wa.me/351930448512" target="_blank" class="bg-cyan-400 text-black font-semibold px-6 py-3 rounded-full hover:bg-cyan-300 transition">
+                    WhatsApp: 930 448 512
+                </a>
+                <a href="https://www.facebook.com/vegadlyra" target="_blank" class="border border-zinc-700 px-6 py-3 rounded-full hover:border-cyan-400 hover:text-cyan-400 transition">
+                    Facebook / Vega Solutions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-zinc-900 text-center text-xs text-zinc-600">
+        <p>&copy; 2026 Vega Solutions - Integração de IA Empresarial (IntegrarIA). Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
 
